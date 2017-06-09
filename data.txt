@@ -1,0 +1,10 @@
+Data collect
+The data of the original consumption of crude oil, raw coal and natural gas in china are mainly collected from China Statistics Reference (http://www.stats.gov.cn/tjsj/ndsj/). 
+(1)Effect of selection of the power industry development the main eight fossil fuels as raw data to calculate carbon emissions, which are coal, coke, crude oil, gasoline, kerosene, diesel oil, fuel oil, natural gas, the original unit energy consumption. (raw coal, coke, crude oil, gasoline, kerosene, diesel oil, fuel oil unit is ton, natural gas unit is cubic meter);
+(2) convert the original energy consumption into standard coal;
+The original unit of eight fuels was converted to standard coal consumption (unit: 10000 tons) by using the original consumption performance data of various types of energy and its standard coal conversion coefficient
+(3) measuring carbon emissions
+Carbon dioxide emissions are calculated by multiplying the standard coal consumption of eight fuels with carbon dioxide conversion rates. 
+The equation is£º
+                  Co2 emission= ¡ÆEi¦Ái¦Âi  £¨i¡Ê[1,8]£©  
+Which E is Raw energy consumption, ¦Áis Conversion coefficient of standard coal and ¦Âis Co2 conversion factor.
