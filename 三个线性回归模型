@@ -1,0 +1,18 @@
+coal=data$煤炭
+head(coal)
+coal=ts(coal,frequency=1,start = c(1994))
+plot(coal,xlab='year',ylab='t')
+lgcoal=log(coal)
+dlgcoal=diff(lgcoal)
+x1=dlgco2
+x2=dlgeh
+x3=dlgcoal
+m1=lm(x1~x2)
+summary(m1)
+plot(x2,x1,xlab="发电设备平均利用小时",ylab="co2排放量（t）")
+m2=lm(x1~x3)
+summary(m2)
+plot(x3,x1,xlab="发电设备平均利用小时",ylab="原煤消费量")
+m3=lm(x2~x3)
+summary(m3)
+plot(x3,x2,xlab="原煤消费量",ylab="发电设备平均利用小时")
